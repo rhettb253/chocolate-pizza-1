@@ -1,0 +1,26 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.header{
+    display: flex;
+}
+
+div.border-bottom{
+    background-color: silver;
+    height: 10px;
+    margin-bottom: 10px;
+}
+
+div.header-text{
+    display: flex;
+    flex-direction: column;
+}
+
+div.icons{
+    margin: auto;
+
+}
