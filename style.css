@@ -2,6 +2,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 901px;
+    margin: auto;
 }
 
 .header{
@@ -36,12 +38,6 @@ div.icons{
 h1 {
     font-weight: bold;
     font-size:45px;
-}
-
-.printer-icon {
-    float:right;
-    position:absolute;
-    right:120px;
 }
 
 .main-content {
@@ -154,4 +150,19 @@ footer div {
     display:flex;
     justify-content: center;  
     text-align: center; 
+}
+
+.iconprint{
+    display: flex;
+}
+
+#delicious{
+    font-size: 23px;
+    font-family: cursive;
+    font-weight: 750;
+}
+
+#bfb{
+    color: silver;
+    font-size: smaller;
 }
