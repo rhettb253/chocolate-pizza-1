@@ -2,7 +2,6 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
 }
 
 .header{
@@ -21,6 +20,138 @@ div.header-text{
 }
 
 div.icons{
-    margin: auto;
+    justify-content: space-around;
+}
 
+.second-header {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#header2-text {
+    flex-direction: column;
+}
+
+h1 {
+    font-weight: bold;
+    font-size:45px;
+}
+
+.printer-icon {
+    float:right;
+    position:absolute;
+    right:120px;
+}
+
+.main-content {
+    width: 901px;
+    margin:auto;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    word-spacing: .2rem;
+    letter-spacing: .1rem;
+}
+
+.text-content p{
+    text-indent: 2rem;
+    color:grey;
+    margin-top: 17px;
+    margin-bottom:17px;
+}
+
+.list-items {
+    width:auto;
+    display: flex;
+    position:relative;
+    align-items: center;
+
+}
+
+#text {
+    position:absolute;
+    z-index: 10;
+}
+
+.list-items img {
+    position:relative;
+    top:0px;
+}
+
+.ul-thing {
+    color: grey;
+    font-family: fantasy;
+    font-weight: bold;
+    display:flex;
+    width:901px;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type:none;
+
+}
+
+li {
+    margin:15px 0;
+}
+
+.space {
+    margin:15px 0;
+}
+
+.text-vanessa {
+    margin:0 30px;
+}
+
+.vanessa {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: large;
+    font-weight: bold;
+    color:grey;
+}
+
+.break {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hr-tag {
+    width: 901px;
+    position:relative;
+    top: 30px;
+    z-index: 0;
+}
+
+.break img{
+    z-index: 4;
+}
+
+.vanessa p {
+    font-size: medium;
+    color: grey;
+
+}
+button {
+    padding:15px 30px;
+    background-color: brown;
+    color:white;
+    border:0;
+}
+
+footer div {
+    color:grey;
+    margin:20px 0;
+    font-size: smaller;
+    display:flex;
+    justify-content: center;  
+    text-align: center; 
 }
